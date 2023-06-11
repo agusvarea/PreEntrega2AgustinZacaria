@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #171717;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  margin-left: 30px;
+}
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 60vh !important;
+  background: url(../imagen/header1.jpg.png) no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.colum-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.colum-1 img {
+  width: 350px;
+  min-height: 150px;
+  padding: 5px;
+  border: grey 5px double;
+  opacity: 0.4;
+}
+.colum-1 img:hover {
+  opacity: 1;
+  border: #fff;
+}
+
+.colum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.colum img {
+  width: 250px;
+  min-height: 150px;
+  padding: 5px;
+  border: grey 5px double;
+  opacity: 0.4;
+}
+.colum img:hover {
+  opacity: 1;
+  border: #fff;
+}
+
+.info h3 {
+  font-size: 40px;
+  color: #a52a2a;
+  font-weight: normal;
+}
+
+.info ul {
+  font-size: 16px;
+  padding: 15px;
+  color: #fff;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+table {
+  font-size: 16px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: solid 2px rgba(255, 255, 255, 0.2);
+}
+
+thead {
+  background: #7d0404;
+}
+
+th {
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 4px rgba(255, 255, 255, 0.2);
+}
+
+tbody tr {
+  cursor: pointer;
+}
+tbody tr:hover {
+  background: rgba(64, 12, 12, 0.9607843137);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid rgba(64, 12, 12, 0.9607843137);
+  color: #fff;
+  text-decoration: none;
+  background: rgba(64, 12, 12, 0.9607843137);
+}
+.btn:hover {
+  color: #fff;
+  background: #f90e25;
+  border-color: #f90e25;
+  border-radius: 10px;
+}
+
+.btn-home {
+  display: flex;
+}
+.btn-home a {
+  margin: 0 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sau {
+  padding: 40px;
+  background: #1f1d1d;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #101010;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 5rem rgb(0, 0, 1);
+  margin: 2rem;
+}
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: rgba(64, 12, 12, 0.9607843137);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: rgba(64, 12, 12, 0.9607843137);
+}
+
+.box-container .box p {
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+.about {
+  padding: 40px;
+  background: #101010;
+}
+
+.price {
+  padding: 100px;
+  background: url(../imagen/alireza-nikzad-s5MCHa20XDY-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact {
+  padding-top: 40px;
+  background: #101010;
+  padding-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=estilo.css.map */

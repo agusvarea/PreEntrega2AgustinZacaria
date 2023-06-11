@@ -1,0 +1,14 @@
+@mixin aliniar{
+    display: flex;
+    align-items: center;
+}
+
+@mixin btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #400c0cf5;
+    color: $secondary-color;
+    text-decoration: none;
+    background: #400c0cf5;
+}
